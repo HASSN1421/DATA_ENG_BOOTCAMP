@@ -237,4 +237,4 @@ module-4-dbt/**/logs/
 # OS files
 .DS_Store
 Thumbs.db
-model-2-airflow/.env
+COMPOSE_PROJECT_NAME=model-2-airflow
