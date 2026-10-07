@@ -5,7 +5,17 @@ An end-to-end Data Engineering project that processes transactional data from mu
 This project was developed as part of my Data Engineering learning journey and was inspired by the **Apache Airflow / orchestration module of the DataTalks.Club Data Engineering Zoomcamp**, with additional implementation and customization around data quality, dimensional modeling, incremental loading, watermarking, UPSERT logic, and pipeline validation.
 
 ---
+## Pipeline Run
 
+<p align="center">
+  <img src="images/airflow-dag-success.png" alt="Successful Apache Airflow ETL Pipeline Run" width="100%">
+</p>
+
+<p align="center">
+  <em>Successful scheduled run of the transactions_etl_pipeline in Apache Airflow.</em>
+</p>
+
+---
 ## Project Overview
 
 The project simulates a practical ETL workflow where transactional data is extracted from PostgreSQL and reference data is extracted from Excel.
